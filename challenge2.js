@@ -1,4 +1,4 @@
-let speed = 60
+let speed = 120
 
 if(speed<=70) {console.log("Ok")}
 
