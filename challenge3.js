@@ -40,12 +40,30 @@ else if(affordableHousingRelief>=0 && affordableHousingRelief<=9000) {affordable
 else {
     personalRelief = "Personal Relief Error!"
     insuranceRelief = "Insurance Relief Error"
-affordableHousingRelief = "Affordable Housing Relief Error!"
+    affordableHousingRelief = "Affordable Housing Relief Error!"
 }
 
 // Other PAYE Parameters(contributions)
 let allowablePensionFundContribution = 25000
 let allowable_HOSP_Contribution = 0
+if (allowablePensionFundContribution>=0 && allowablePensionFundContribution<=20000) {allowablePensionFundContribution = allowablePensionFundContribution}
+else if (allowable_HOSP_Contribution===0){allowable_HOSP_Contribution=allowable_HOSP_Contribution}
+else {
+    allowablePensionFundContribution = "Contribution Error!"
+    allowable_HOSP_Contribution = "Contribution Error!"
+}
+
+// Other PAYE Parameters 
+let allowableOwnerOccupierInterest = 2000
+let disabilityExemption = 20000
+
+if (allowableOwnerOccupierInterest>=0 && allowableOwnerOccupierInterest<=25000) {allowableOwnerOccupierInterest = allowableOwnerOccupierInterest}
+else if (disabilityExemption>=0 && disabilityExemption<=150000){disabilityExemption = disabilityExemption}
+else {
+    allowableOwnerOccupierInterest = "Interest Error!"
+    disabilityExemption = "Disability Exemptio Erroe!"
+}
+
 
 
 
