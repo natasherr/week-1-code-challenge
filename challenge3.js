@@ -61,8 +61,9 @@ if (allowableOwnerOccupierInterest>=0 && allowableOwnerOccupierInterest<=25000) 
 else if (disabilityExemption>=0 && disabilityExemption<=150000){disabilityExemption = disabilityExemption}
 else {
     allowableOwnerOccupierInterest = "Interest Error!"
-    disabilityExemption = "Disability Exemptio Erroe!"
+    disabilityExemption = "Disability Exemption Error!"
 }
+
 
 
 
