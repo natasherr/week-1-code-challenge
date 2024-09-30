@@ -27,8 +27,26 @@ let monthlyPaye = () => {
         monthlyTaxablePay = 0.35 * monthlyIncome
         return monthlyTaxablePay
     }
-
 }
+
+// Other PAYE Parameters(reliefs)
+let personalRelief = 2000
+let insuranceRelief = 3000
+let affordableHousingRelief = 2500
+
+if(personalRelief>=0 && personalRelief<=2400){personalRelief = personalRelief} 
+else if(insuranceRelief>=0 && insuranceRelief<=5000){insuranceRelief = insuranceRelief}  
+else if(affordableHousingRelief>=0 && affordableHousingRelief<=9000) {affordableHousingRelief = affordableHousingRelief}
+else {
+    personalRelief = "Personal Relief Error!"
+    insuranceRelief = "Insurance Relief Error"
+affordableHousingRelief = "Affordable Housing Relief Error!"
+}
+
+// Other PAYE Parameters(contributions)
+let allowablePensionFundContribution = 25000
+let allowable_HOSP_Contribution = 0
+
 
 
 
