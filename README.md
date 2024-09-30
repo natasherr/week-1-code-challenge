@@ -42,7 +42,7 @@ Javascript
 github.com/natasherr
 
 ### License
-*LIcenced under the [MT-licence](https://github.com/natasherr/Portfolio/blob/master/LICENSE.md)
+*LIcenced under the [MIT-licence](https://github.com/natasherr/Portfolio/blob/master/LICENSE.md)
 
 Copyright (c) 2024 **Ashley Natasha Otsiula**
 
