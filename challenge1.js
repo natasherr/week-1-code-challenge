@@ -1,4 +1,4 @@
-let grade = 86
+let grade = 70
 
 // A grade less than 40 should be Grade E
 if(grade>=0 && grade<=39) {console.log("Grade E")}
@@ -18,3 +18,4 @@ else if(grade>=80 && grade<=100) {console.log("Grade A")}
 // If a grade does not range from 0 to 100, the output should be "Invalid Output"
 else(console.log("Invalid Input"))
 
+console.log(grade);

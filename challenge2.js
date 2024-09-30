@@ -11,3 +11,6 @@ else if(speed>70 && speed<=130) {
 }
 // If the speed is above 130, the function should print out "License suspended".
 else if(speed>130){console.log("License suspended")}
+
+console.log(speed);
+
